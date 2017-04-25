@@ -1,0 +1,147 @@
+body{
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  opacity: 0.9;
+  font-size: 22px;
+  text-align: center;
+  z-index: 1;
+  margin: 0px;
+}
+
+a {
+  color: inherit;
+}
+
+header{
+border-bottom: 1px solid seashell;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+width: 100%;
+z-index: 50;
+background-color: black;
+height: 69px;
+}
+
+
+
+header img{
+  height: 50px;
+  padding-left: 10px;
+}
+
+header span{
+padding-right: 10px;
+}
+
+.wrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner img{
+  height: 700px;
+  position: relative;
+  }
+
+.banner-text{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0%;
+  background-color: black;
+  position: absolute;
+}
+
+.tea-month{
+  display: block;
+  justify-content: center;
+}
+
+.tea-blocks-main{
+display: inline-flex;
+justify-content: center;
+flex-wrap: wrap;
+width: 1000px;
+}
+
+.tea img{
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+ }
+
+ .tea h4{
+   margin-top: 10px;
+ }
+
+
+.container-locations{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.background-locations img{
+  display: flex;
+  position: relative;
+}
+
+ .locations{
+   display: inline-flex;
+   position: absolute;
+ }
+
+ .location-head h2{
+   display: flex;
+   position: absolute;
+   width: 100%;
+   justify-content: center;
+   align-items: flex-start;
+   top: -50px;
+ }
+
+ .location-1{
+background-color: black;
+height: 300px;
+width: 300px;
+margin: 40px;
+opacity: 1;
+ }
+
+.location-2{
+background-color: black;
+height: 300px;
+width: 300px;
+margin: 40px;
+opacity: 1;
+}
+
+.location-3{
+background-color: black;
+height: 300px;
+width: 300px;
+margin: 40px;
+opacity: 1;
+}
+
+
+
+.contact{
+  height: 200px;
+}
+
+.footer{
+  text-align: left;
+  margin-left: 20px;
+}
